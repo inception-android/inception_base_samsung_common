@@ -1,5 +1,5 @@
 {
-    "__extends__": "inception.android",
+    "__extends__": "inception.android.common",
     "cache": {
         "pit_name": "CACHE",
         "sparsed": true
