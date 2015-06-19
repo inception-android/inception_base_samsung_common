@@ -1,13 +1,21 @@
 {
-    "__extends__": "inception.android.common",
+    "__extends__": "inception.device",
+    "__config__": {
+        "target": {
+            "mount": {
+                "cache": {
+                    "pit_name": "CACHE"
+                },
+                "recovery": {
+                    "pit_name": "RECOVERY"
+                },
+                "boot": {
+                    "pit_name": "KERNEL"
+                }
+            }
+        }
+    },
     "cache": {
-        "pit_name": "CACHE",
         "sparsed": true
-    },
-    "recovery": {
-        "pit_name": "RECOVERY"
-    },
-    "boot": {
-        "pit_name": "KERNEL"
     }
 }
