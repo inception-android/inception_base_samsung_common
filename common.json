@@ -2,6 +2,9 @@
     "__extends__": "inception.device",
     "__config__": {
         "target": {
+            "device": {
+                "vendor_id": ["04e8", "18d1"]
+            },
             "mount": {
                 "cache": {
                     "pit_name": "CACHE"
